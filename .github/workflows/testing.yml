@@ -1,0 +1,9 @@
+name: Testing Action
+on:
+  push:
+jobs:
+  my-testing-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mensaje Testing 🔥
+        run: echo "Listo para hacer testing"
