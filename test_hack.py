@@ -1,5 +1,5 @@
 
-from hack_1 import fn_hack_1
+from app import fn_hack_1
 
 
 # h-1
