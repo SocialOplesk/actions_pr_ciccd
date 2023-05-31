@@ -1,0 +1,9 @@
+name: Mensaje Action
+on:
+  push:
+jobs:
+  my-msg-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a message
+        run: echo "A push event has occurred"      
